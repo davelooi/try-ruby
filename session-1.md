@@ -1,6 +1,7 @@
 # TRY RUBY
 
 ## Before we start
+- Checkout https://github.com/davelooi/try-ruby
 - You might already have ruby installed
 - In the terminal:
 ```
