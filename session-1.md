@@ -66,10 +66,17 @@ irb(main):006:0> data = JSON.parse(response.to_s)
 irb(main):012:0> puts JSON.pretty_generate(data)
 irb(main):013:0> JSON.parse(HTTP.get('https://data.exchange.coinjar.com/products/BTCAUD/ticker'))['bid']
 ```
-- Fetch 10 times
-- Delay 1 second between fetch
 
-- How to make one?
+- Run it all in a script
+	- exchange.rb
+	- coincap.rb
+	- dog.rb
+
+- Homeworks:
+	- Fetch 10 times
+	- Delay 1 second between fetch
+
+### How to make one?
   - It's complicated
 
 ### CSV processing
