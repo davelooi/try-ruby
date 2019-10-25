@@ -15,3 +15,6 @@ puts JSON.pretty_generate(data) # => still lots of data
 
 # Filter by only AUD
 puts "====BTC/AUD ONLY===="
+response = HTTP.post('https://api.coincap.io/v2/market', params)
+data = JSON.parse(response.to_s)
+puts JSON.pretty_generate(data) # => still lots of data

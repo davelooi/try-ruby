@@ -15,5 +15,9 @@ puts data['bid']
 puts "====pretty data===="
 puts JSON.pretty_generate(data)
 
-puts "====current_time and bid and ask===="
-puts ""
+while(1) do
+	response = HTTP.get('https://data.exchange.coinjar.com/products/BTCAUD/ticker')
+	data = JSON.parse(response.to_s)
+	puts data['current_time']
+	sleep 1
+end
