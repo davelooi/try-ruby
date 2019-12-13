@@ -2,14 +2,13 @@
 
 ## Before we start
 - Checkout https://github.com/davelooi/try-ruby
-- You might already have ruby installed
-- In the terminal:
-```
-❯ ruby -v
-ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
-```
 
-- If you don't have ruby: https://www.ruby-lang.org/en/documentation/installation/#homebrew
+### Install ruby
+- Install homebrew https://brew.sh/
+- Install ruby https://www.ruby-lang.org/en/documentation/installation/#homebrew
+
+### Install VS Code
+- https://code.visualstudio.com/docs/setup/mac#_installation
 
 ## Let's start
 
